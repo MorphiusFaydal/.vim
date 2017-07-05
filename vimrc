@@ -1,6 +1,13 @@
 " stop vi compatibility
 set nocompatible
 
+" default working directory to home on windows, not system32
+" also sets to use '.vim' instead of 'vimfiles'
+if has("win32") || has("win64")
+	cd $USERPROFILE
+	set runtimepath=$HOME/.vim,$VIM/vimfiles,$VIMRUNTIME,$VIM/vimfiles/after,$HOME/.vim/after
+endif
+
 " Install Pathogen
 execute pathogen#infect()
 execute pathogen#helptags()
@@ -23,14 +30,6 @@ if has("gui_running")
 	else
 		set guifont Inconsolata\ Medium\ 12
 	endif
-endif
-
-
-" default working directory to home on windows, not system32
-" also sets to use '.vim' instead of 'vimfiles'
-if has("win32") || has("win64")
-	cd $USERPROFILE
-	set runtimepath=$HOME/.vim,$VIM/vimfiles,$VIMRUNTIME,$VIM/vimfiles/after,$HOME/.vim/after
 endif
 
 " theming
