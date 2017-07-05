@@ -27,8 +27,10 @@ endif
 
 
 " default working directory to home on windows, not system32
-if has("win32")
+" also sets to use '.vim' instead of 'vimfiles'
+if has("win32") || has("win64")
 	cd $USERPROFILE
+	set runtimepath=$HOME/.vim,$VIM/vimfiles,$VIMRUNTIME,$VIM/vimfiles/after,$HOME/.vim/after
 endif
 
 " theming
