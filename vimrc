@@ -82,3 +82,5 @@ inoremap <right> <nop>
 " make vim-airline show
 set laststatus=2
 
+" disable automatic folding in vim-markdown
+let g:vim_markdown_folding_disabled=1
