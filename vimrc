@@ -81,6 +81,34 @@ inoremap <down> <nop>
 inoremap <left> <nop>
 inoremap <right> <nop>
 
+" move viminfo file. include neovim stuff, in case it's used...
+if has('shada')
+	set shada+=n~/.nvim/shada
+else
+	set viminfo+=n~/.vim/viminfo
+endif
+
+" Backup/temp/undo directories and files
+" Ensure directories exist
+if !isdirectory($HOME.'/.vim/backup')
+	silent call mkdir($HOME.'/.vim/backup', 'p')
+endif
+if !isdirectory($HOME.'/.vim/temp')
+	silent call mkdir($HOME.'/.vim/temp', 'p')
+endif
+if !isdirectory($HOME.'/.vim/undo')
+	silent call mkdir($HOME.'/.vim/undo', 'p')
+endif
+
+" set options
+set backup
+set undofile
+
+" set directories
+set backupdir=$HOME/.vim/backup//
+set directory=$HOME/.vim/temp//
+set undodir=$HOME/.vim/undo//
+
 " make vim-airline show
 set laststatus=2
 
