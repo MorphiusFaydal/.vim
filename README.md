@@ -1,8 +1,24 @@
 # My .vim Files
 
-Contains my vimrc and modules
+Contains my vimrc and plugins
 
-Uses [Pathogen](https://github.com/tpope/vim-pathogen)
+Uses [Pathogen](https://github.com/tpope/vim-pathogen) for plugin management.
+
+## Installation
+Clone into home directory (~ on Linux, C:\User\<username>\ on Windows)
+
+On Windows, you must also run `mklink /d vimfiles .vim` from your home
+directory.
+
+On a clean installation, submodules will need to be initialized:
+1. `git submodule init`
+2. `git submodule update`
+
+## Updating
+1. Update base vim files with `git pull`
+2. Update submodules with `git submodule update --init --recursive`
+
+Pathogen may need to be manually updated from time to time.
 
 ## Plugins
 - Utility Plugins
