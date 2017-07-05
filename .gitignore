@@ -1,0 +1,6 @@
+# ignore vim's own stuff
+backup/
+temp/
+undo/
+viminfo
+.netrwhist
