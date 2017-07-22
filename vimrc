@@ -55,8 +55,9 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 
-" show line numbers, ruler and line widths
+" show line numbers and relative numbers, ruler and line widths
 set number
+set relativenumber
 set ruler
 set colorcolumn=80
 
