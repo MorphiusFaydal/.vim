@@ -26,9 +26,9 @@ if has("gui_running")
 		source $VIMRUNTIME/mswin.vim
 		set guifont=Consolas:h10
 	elseif has("mac")
-		set guifont=Inconsolata:h14
+		set guifont=Inconsolata:h12
 	else
-		set guifont Inconsolata\ Medium\ 12
+		set guifont Inconsolata\ 11
 	endif
 endif
 
