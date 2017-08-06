@@ -35,6 +35,7 @@ endif
 " theming
 colorscheme monokai
 set background=dark
+set termguicolors
 
 " default encoding
 set encoding=utf-8
