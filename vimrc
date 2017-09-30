@@ -69,6 +69,9 @@ set incsearch
 set showmatch
 set hlsearch
 
+" good menu for buffers
+set wildchar=<Tab> wildmenu wildmode=full
+
 " new escape sequence
 inoremap jk <ESC>
 
