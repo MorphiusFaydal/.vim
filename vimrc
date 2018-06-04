@@ -58,7 +58,6 @@ set softtabstop=4
 
 " show line numbers and relative numbers, ruler and line widths
 set number
-set relativenumber
 set ruler
 set colorcolumn=80
 
