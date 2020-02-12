@@ -16,7 +16,7 @@ On a clean installation, submodules will need to be initialized:
 
 ## Updating
 1. Update base vim files with `git pull`
-2. Update submodules with `git submodule update --init --recursive`
+2. Update submodules with `git submodule foreach git pull origin master`
 
 Pathogen may need to be manually updated from time to time.
 
