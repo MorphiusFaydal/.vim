@@ -8,10 +8,6 @@ if has("win32") || has("win64")
 	set runtimepath=$HOME/.vim,$VIM/vimfiles,$VIMRUNTIME,$VIM/vimfiles/after,$HOME/.vim/after
 endif
 
-" Install Pathogen
-execute pathogen#infect()
-execute pathogen#helptags()
-
 " GUI settings
 if has("gui_running")
 	" set default window size

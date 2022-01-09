@@ -1,27 +1,27 @@
 [submodule "bundle/vim-airline"]
-	path = bundle/vim-airline
+	path = pack/plugin/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
 [submodule "bundle/vim-airline-themes"]
-	path = bundle/vim-airline-themes
+	path = pack/plugin/start/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes.git
 [submodule "vim-ps1"]
-	path = bundle/vim-ps1
+	path = pack/syntax/start/vim-ps1
 	url = https://github.com/PProvost/vim-ps1.git
 [submodule "bundle/vim-markdown"]
-	path = bundle/vim-markdown
+	path = pack/syntax/start/vim-markdown
 	url = https://github.com/plasticboy/vim-markdown.git
 [submodule "bundle/vim-colors-solarized"]
-	path = bundle/vim-colors-solarized
+	path = pack/color/start/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
 [submodule "bundle/nerdcommenter"]
-	path = bundle/nerdcommenter
+	path = pack/plugin/start/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter.git
 [submodule "bundle/jellybeans.vim"]
-	path = bundle/jellybeans.vim
+	path = pack/color/start/jellybeans.vim
 	url = https://github.com/nanotech/jellybeans.vim.git
 [submodule "bundle/vim-monokai"]
-	path = bundle/vim-monokai
+	path = pack/color/start/vim-monokai
 	url = https://github.com/sickill/vim-monokai
 [submodule "bundle/molokai"]
-	path = bundle/molokai
+	path = pack/color/start/molokai
 	url = https://github.com/tomasr/molokai.git
