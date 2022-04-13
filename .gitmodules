@@ -25,6 +25,10 @@
 [submodule "bundle/molokai"]
 	path = pack/color/start/molokai
 	url = https://github.com/tomasr/molokai.git
+[submodule "pack/coc/start/coc.nvim"]
+	path = pack/coc/start/coc.nvim
+	url = https://github.com/neoclide/coc.nvim.git
+	branch = release
 [submodule "pack/plugin/start/vim-airline"]
 	path = pack/plugin/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline
