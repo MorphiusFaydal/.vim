@@ -32,3 +32,7 @@
 [submodule "pack/plugin/start/vim-airline"]
 	path = pack/plugin/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline
+[submodule "pack/plugin/start/nerdcommenter"]
+	path = https://github.com/preservim/nerdcommenter.git
+[submodule "pack/syntax/start/vim-markdown"]
+	path = https://github.com/preservim/vim-markdown.git
