@@ -33,4 +33,5 @@ Pathogen may need to be manually updated from time to time.
     - [Jellybeans](https://github.com/nanotech/jellybeans.vim)
     - [Molokai](https://github.com/tomasr/molokai)
     - [Monokai](https://github.com/sickill/vim-monokai)
+    - [Nord](https://github.com/arcticicestudio/nord-vim)
 

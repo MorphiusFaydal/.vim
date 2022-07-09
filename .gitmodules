@@ -36,3 +36,6 @@
 	path = https://github.com/preservim/nerdcommenter.git
 [submodule "pack/syntax/start/vim-markdown"]
 	path = https://github.com/preservim/vim-markdown.git
+[submodule "pack/color/start/nord-vim"]
+	path = pack/color/start/nord-vim
+	url = https://github.com/arcticicestudio/nord-vim.git
