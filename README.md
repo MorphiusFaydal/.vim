@@ -24,10 +24,10 @@ Pathogen may need to be manually updated from time to time.
 - Utility Plugins
     - [vim-airline](https://github.com/vim-airline/vim-airline)
     - [vim-airline-themes](https://github.com/vim-airline/vim-airline-themes)
-    - [NERD Commenter](https://github.com/scrooloose/nerdcommenter/)
+    - [NERD Commenter](https://github.com/preservim/nerdcommenter/)
 - Syntax
     - [vim-ps1](https://github.com/PProvost/vim-ps1/)
-    - [vim-markdown](https://github.com/plasticboy/vim-markdown)
+    - [vim-markdown](https://github.com/preservim/vim-markdown)
 - Colorschemes
     - [Solarized](https://github.com/altercation/vim-colors-solarized)
     - [Jellybeans](https://github.com/nanotech/jellybeans.vim)
