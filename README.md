@@ -22,6 +22,7 @@ Pathogen may need to be manually updated from time to time.
 
 ## Plugins
 - Utility Plugins
+    - [coc.nvim](https://github.com/neoclide/coc.nvim)
     - [vim-airline](https://github.com/vim-airline/vim-airline)
     - [vim-airline-themes](https://github.com/vim-airline/vim-airline-themes)
     - [NERD Commenter](https://github.com/preservim/nerdcommenter/)
